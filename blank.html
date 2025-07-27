@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Blank UI Crash</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ffff;
+      font-family: monospace;
+      padding: 40px;
+      text-align: center;
+    }
+    a {
+      color: #00ffff;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  </style>
+  <audio id="sfx" autoplay loop>
+    <source src="https://files.catbox.moe/26yzcc.mp3" type="audio/mpeg">
+  </audio>
+</head>
+<body>
+  <h1>🔳 Blank UI WA</h1>
+  <p>Link ini bisa membuat tampilan WA target jadi putih kosong (blank):</p>
+  <p><strong>https://wa.me/628xxxxxxx?text=⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</strong></p>
+
+  <a href="menu.html">⬅️ Kembali ke menu</a>
+
+  <script>
+    const audio = document.getElementById('sfx');
+    audio.volume = 0.1;
+  </script>
+</body>
+</html>
